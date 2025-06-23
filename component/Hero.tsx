@@ -2,6 +2,8 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import MagicButton from "./ui/MagicButton";
+import { FaLocationArrow } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -36,12 +38,19 @@ function Hero() {
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg_text-6xl"
-            words="Transforming Concepts into Seamless Experience"
+            words="Transforming Concepts into Seamless User Experience"
           />
           <p className="text-center md:tracking-wider md-4 text-sm md:text-lg lg:text-2xl">
             I am a passionate web developer specializing in creating dynamic and
             interactive web applications using Next.js.
           </p>
+          <a href="#about">
+            <MagicButton
+              icon={<FaLocationArrow />}
+              title="Show my work"
+              position="right"
+            />
+          </a>
         </div>
       </div>
     </div>
