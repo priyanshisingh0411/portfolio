@@ -1,8 +1,12 @@
 // import Image from "next/image";
 
+// import Approach from "@/component/Approach";
+import Experience from "@/component/Experience";
+import Footer from "@/component/Footer";
 import Grid from "@/component/Grid";
 import Hero from "@/component/Hero";
 import RecentProjects from "@/component/RecentProjects";
+// import Testimonials from "@/component/Testimonials";
 import { FloatingNav } from "@/component/ui/FloatingNav";
 import { navItems } from "@/data";
 
@@ -14,6 +18,10 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        {/* <Testimonials /> */}
+        <Experience />
+        {/* <Approach /> */}
+        <Footer />
       </div>
     </main>
   );

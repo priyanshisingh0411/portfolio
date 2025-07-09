@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -49,7 +52,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Travel Application",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,36 +75,36 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Chatbot with OpenAI",
+    des: "A React-based chatbot interface powered by OpenAI API. This project demonstrates how to integrate GPT models into a frontend application.",
+    img: "/chatT.png",
+    iconLists: ["/re.svg", "/js.png", "/openai.png", "/css1.png"],
+    link: "https://github.com/priyanshisingh0411/Chatbot_openAI?tab=readme-ov-file",
   },
-  {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
-  },
+  // {
+  //   id: 2,
+  //   title: "Yoom - Video Conferencing App",
+  //   des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+  //   img: "/p2.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+  //   link: "https://github.com/adrianhajdin/zoom-clone",
+  // },
+  // {
+  //   id: 3,
+  //   title: "AI Image SaaS - Canva Application",
+  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+  //   img: "/p3.svg",
+  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+  //   link: "https://github.com/adrianhajdin/ai_saas_app",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Animated Apple Iphone 3D Website",
+  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "https://github.com/adrianhajdin/iphone",
+  // },
 ];
 
 export const testimonials = [
@@ -140,78 +143,81 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "tcs",
+    img: "/tcs.png",
+    nameImg: "/tcsName.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "wobot",
+    img: "/Wobot_logo.png",
+    nameImg: "/Wobot_name.png",
   },
   {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    id: 2,
+    name: "3rdLife",
+    img: "/3rdLogo.png",
+    nameImg: "",
   },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+
+  // {
+  //   id: 4,
+  //   name: "stream",
+  //   img: "/s.svg",
+  //   nameImg: "/streamName.svg",
+  // },
+  // {
+  //   id: 5,
+  //   name: "docker.",
+  //   img: "/dock.svg",
+  //   nameImg: "/dockerName.svg",
+  // },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer",
+    desc: "Worked on six UI projects, developing user-friendly and visually appealing web applications using JavaScript, React, HTML5, CSS3, and Next.js.Collaborated across the full development cycle—from requirements to deployment—using Git for version control and efficient teamwork.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Data Labelling Intern",
+    desc: "Completed a data labeling internship, where I annotated and categorized large datasets to train computer vision models.Ensured high-quality, accurate labeling to improve AI performance and supported the ML team in maintaining data consistency.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Data Analyst Intern",
+    desc: "Interned as a Data Analyst, handling data cleaning, analysis, and reporting to support key business insights.Used Excel, SQL, and Python to create visualizations and uncover trends.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  // {
+  //   id: 4,
+  //   title: "Lead Frontend Developer",
+  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/priyanshisingh0411",
   },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  // },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/priyanshi-singh-5162881b5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bu1syw%2F2QRAyl9wL6gCPJjw%3D%3D",
   },
 ];
