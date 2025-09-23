@@ -16,7 +16,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "./b1.svg",
     spareImg: "",
   },
   {
@@ -46,8 +46,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "./grid.svg",
+    spareImg: "./b4.svg",
   },
 
   {
@@ -57,8 +57,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "./b5.svg",
+    spareImg: "./grid.svg",
   },
   {
     id: 6,
@@ -77,8 +77,8 @@ export const projects = [
     id: 1,
     title: "Chatbot with OpenAI",
     des: "A React-based chatbot interface powered by OpenAI API. This project demonstrates how to integrate GPT models into a frontend application.",
-    img: "/chatT.png",
-    iconLists: ["/re.svg", "/js.png", "/openai.png", "/css1.png"],
+    img: "./chatT.png",
+    iconLists: ["./re.svg", "./js.png", "./openai.png", "./css1.png"],
     link: "https://github.com/priyanshisingh0411/Chatbot_openAI?tab=readme-ov-file",
   },
   // {
@@ -144,19 +144,19 @@ export const companies = [
   {
     id: 1,
     name: "tcs",
-    img: "/tcs.png",
-    nameImg: "/tcsName.png",
+    img: "./tcs.png",
+    nameImg: "./tcsName.png",
   },
   {
     id: 3,
     name: "wobot",
-    img: "/Wobot_logo.png",
-    nameImg: "/Wobot_name.png",
+    img: "./Wobot_logo.png",
+    nameImg: "./Wobot_name.png",
   },
   {
     id: 2,
     name: "3rdLife",
-    img: "/3rdLogo.png",
+    img: "./3rdLogo.png",
     nameImg: "",
   },
 
@@ -180,21 +180,21 @@ export const workExperience = [
     title: "Frontend Developer",
     desc: "Worked on six UI projects, developing user-friendly and visually appealing web applications using JavaScript, React, HTML5, CSS3, and Next.js.Collaborated across the full development cycle—from requirements to deployment—using Git for version control and efficient teamwork. (TCS)",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "./exp1.svg",
   },
   {
     id: 2,
     title: "Data Labelling Intern",
     desc: "Completed a data labeling internship, where I annotated and categorized large datasets to train computer vision models.Ensured high-quality, accurate labeling to improve AI performance and supported the ML team in maintaining data consistency. (WOBOT ai)",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "./exp2.svg",
   },
   {
     id: 3,
     title: "Data Analyst Intern",
     desc: "Interned as a Data Analyst, handling data cleaning, analysis, and reporting to support key business insights.Used Excel, SQL, and Python to create visualizations and uncover trends. (3rdLife)",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "./exp3.svg",
   },
   // {
   //   id: 4,
@@ -208,7 +208,7 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "./git.svg",
     link: "https://github.com/priyanshisingh0411",
   },
   // {
@@ -217,7 +217,7 @@ export const socialMedia = [
   // },
   {
     id: 2,
-    img: "/link.svg",
+    img: "./link.svg",
     link: "https://www.linkedin.com/in/priyanshi-singh-5162881b5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bu1syw%2F2QRAyl9wL6gCPJjw%3D%3D",
   },
 ];
