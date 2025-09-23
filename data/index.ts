@@ -4,7 +4,7 @@ import { link } from "fs";
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -178,21 +178,21 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Developer",
-    desc: "Worked on six UI projects, developing user-friendly and visually appealing web applications using JavaScript, React, HTML5, CSS3, and Next.js.Collaborated across the full development cycle—from requirements to deployment—using Git for version control and efficient teamwork.",
+    desc: "Worked on six UI projects, developing user-friendly and visually appealing web applications using JavaScript, React, HTML5, CSS3, and Next.js.Collaborated across the full development cycle—from requirements to deployment—using Git for version control and efficient teamwork. (TCS)",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Data Labelling Intern",
-    desc: "Completed a data labeling internship, where I annotated and categorized large datasets to train computer vision models.Ensured high-quality, accurate labeling to improve AI performance and supported the ML team in maintaining data consistency.",
+    desc: "Completed a data labeling internship, where I annotated and categorized large datasets to train computer vision models.Ensured high-quality, accurate labeling to improve AI performance and supported the ML team in maintaining data consistency. (WOBOT ai)",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Data Analyst Intern",
-    desc: "Interned as a Data Analyst, handling data cleaning, analysis, and reporting to support key business insights.Used Excel, SQL, and Python to create visualizations and uncover trends.",
+    desc: "Interned as a Data Analyst, handling data cleaning, analysis, and reporting to support key business insights.Used Excel, SQL, and Python to create visualizations and uncover trends. (3rdLife)",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
