@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
@@ -26,10 +27,12 @@ function Testimonials() {
               <img
                 src={img}
                 alt={name}
-                className={`${name === "3rdLife" ? "w-10" : "md:w-10 w-5"}}`}
+                className={`${
+                  name === "3rdLife" ? "w-10 md:w-20" : "w-8 md:w-16"
+                }`}
               />
               {name === "3rdLife" ? null : (
-                <img src={nameImg} alt={name} className="md:w-20 w-24" />
+                <img src={nameImg} alt={name} className="w-12 md:w-20 ml-2" />
               )}
             </div>
           ))}
