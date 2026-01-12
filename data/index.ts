@@ -81,14 +81,14 @@ export const projects = [
     iconLists: ["./re.svg", "./js.png", "./openai.png", "./css1.png"],
     link: "https://github.com/priyanshisingh0411/Chatbot_openAI?tab=readme-ov-file",
   },
-  // {
-  //   id: 2,
-  //   title: "Yoom - Video Conferencing App",
-  //   des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-  //   img: "/p2.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-  //   link: "https://github.com/adrianhajdin/zoom-clone",
-  // },
+  {
+    id: 2,
+    title: "GSAP-Cocktail Menu Animation",
+    des: "A visually engaging cocktail menu website featuring smooth animations and transitions using GSAP library.",
+    img: "/download.png",
+    iconLists: ["/vite.png", "./re.svg", "./js.png", "./css1.png"],
+    link: "https://gsap-cocktails-chi-six.vercel.app",
+  },
   // {
   //   id: 3,
   //   title: "AI Image SaaS - Canva Application",
