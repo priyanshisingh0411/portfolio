@@ -85,8 +85,8 @@ export const projects = [
     id: 2,
     title: "GSAP-Cocktail Menu Animation",
     des: "A visually engaging cocktail menu website featuring smooth animations and transitions using GSAP library.",
-    img: "/download.png",
-    iconLists: ["/vite1.png", "./re.svg", "./js.png", "./css1.png"],
+    img: "./download.png",
+    iconLists: ["./vite1.png", "./re.svg", "./js.png", "./css1.png"],
     link: "https://gsap-cocktails-chi-six.vercel.app",
   },
   // {
