@@ -26,7 +26,7 @@ function Hero() {
             "absolute inset-0",
             "[background-size:40px_40px]",
             "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
-            "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
+            "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]",
           )}
         />
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100"></div>
@@ -38,11 +38,12 @@ function Hero() {
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg_text-6xl"
-            words="Transforming Concepts into Seamless User Experience"
+            words="Turning Ideas into Reliable, Real-World Applications"
           />
           <p className="text-center md:tracking-wider md-4 text-sm md:text-lg lg:text-2xl">
-            I am a passionate web developer specializing in creating dynamic and
-            interactive web applications using Next.js.
+            I’m a web developer focused on creating scalable, performant, and
+            user-centric applications using modern frameworks like Next.js and
+            React.
           </p>
           <a href="#about">
             <MagicButton
