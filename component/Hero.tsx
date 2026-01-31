@@ -45,10 +45,10 @@ function Hero() {
             user-centric applications using modern frameworks like Next.js and
             React.
           </p>
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               icon={<FaLocationArrow />}
-              title="Show my work"
+              title="See What I’ve Built "
               position="right"
             />
           </a>

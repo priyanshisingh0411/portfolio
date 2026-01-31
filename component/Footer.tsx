@@ -16,18 +16,18 @@ function Footer() {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take&nbsp;
-          <span className="text-purple-300 font-bold">your&nbsp;</span>
-          digital presence to the next level?
+          Open to new&nbsp;
+          <span className="text-purple-300 font-bold">challenges&nbsp;</span>
+          and ideas
         </h1>
 
         <p className="text-whitw-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how to achieve your
-          goals.
+          Actively seeking roles and collaborations where I can apply my skills,
+          learn, and contribute to well-designed products.
         </p>
         <a href="mailto:singhpriyanshi63@gmail.com">
           <MagicButton
-            title="Let's get in touch"
+            title="Get in touch"
             icon={<FaLocationArrow />}
             position="right"
           />
