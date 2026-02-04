@@ -4,7 +4,7 @@ import React from "react";
 
 function Profile() {
   function handleClick() {
-    window.open("/priyanshi.pdf");
+    window.open("./priyanshi.pdf", "_blank");
   }
 
   return (
