@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React from "react";
@@ -18,7 +19,9 @@ function Profile() {
           />
         </div>
         <div>
-          <h1 className="text-4xl font-bold ml-6">Priyanshi Singh</h1>
+          <h1 className="text-4xl font-bold ml-6">
+            Hi I&apos;m Priyanshi Singh
+          </h1>
           <p className="text-md text-gray-300 ml-6 pt-2">Front End Developer</p>
         </div>
       </div>

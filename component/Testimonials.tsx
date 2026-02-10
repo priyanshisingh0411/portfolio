@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
-import { companies, testimonials } from "@/data";
+import { testimonials } from "@/data";
 
 function Testimonials() {
   return (
@@ -22,7 +22,7 @@ function Testimonials() {
 
         {/* <div className="flex flex-wrap justify-center items-center gap-4 md:gap-16 max-lg: mt-10"> */}
         <div className="flex flex-wrap justify-center items-center gap-4 md:gap-16 ">
-          {companies.map(({ id, img, name, nameImg }) => (
+          {/* {companies.map(({ id, img, name, nameImg }) => (
             <div key={id} className="flex md:max-w-60">
               <img
                 src={img}
@@ -35,7 +35,7 @@ function Testimonials() {
                 <img src={nameImg} alt={name} className="w-12 md:w-20 ml-2" />
               )}
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </div>

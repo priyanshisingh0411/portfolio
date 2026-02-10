@@ -7,7 +7,7 @@ function Experience() {
     <div className="py-10" id="testimonials">
       <h1 className="heading text-6xl font-bold flex items-center justify-center text-center">
         My&nbsp;
-        <span className="text-purple-300 font-bold">WorkExperience</span>
+        <span className="text-purple-300 font-bold">Work Experience</span>
       </h1>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (

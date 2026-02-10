@@ -42,37 +42,37 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  {
-    id: 4,
-    title: "Engineer driven by problem-solving and continuous learning.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "./grid.svg",
-    spareImg: "./b4.svg",
-  },
+  // {
+  //   id: 4,
+  //   title: "Engineer driven by problem-solving and continuous learning.",
+  //   description: "",
+  //   className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+  //   imgClassName: "",
+  //   titleClassName: "justify-start",
+  //   img: "./grid.svg",
+  //   spareImg: "./b4.svg",
+  // },
 
-  {
-    id: 5,
-    title: "Currently building a Travel Application",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "./b5.svg",
-    spareImg: "./grid.svg",
-  },
-  {
-    id: 6,
-    title: "Let’s build something meaningful",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
+  // {
+  //   id: 5,
+  //   title: "Currently building a Travel Application",
+  //   description: "The Inside Scoop",
+  //   className: "md:col-span-3 md:row-span-2",
+  //   imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+  //   titleClassName: "justify-center md:justify-start lg:justify-center",
+  //   img: "./b5.svg",
+  //   spareImg: "./grid.svg",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Let’s build something meaningful",
+  //   description: "",
+  //   className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+  //   imgClassName: "",
+  //   titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+  //   img: "",
+  //   spareImg: "",
+  // },
 ];
 
 export const projects = [
@@ -143,39 +143,39 @@ export const testimonials = [
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "tcs",
-    img: "./tcs.png",
-    nameImg: "./tcsName.png",
-  },
-  {
-    id: 3,
-    name: "wobot",
-    img: "./Wobot_logo.png",
-    nameImg: "./Wobot_name.png",
-  },
-  {
-    id: 2,
-    name: "3rdLife",
-    img: "./3rdLogo.png",
-    nameImg: "",
-  },
+// export const companies = [
+//   {
+//     id: 1,
+//     name: "tcs",
+//     img: "./tcs.png",
+//     nameImg: "./tcsName.png",
+//   },
+//   {
+//     id: 3,
+//     name: "wobot",
+//     img: "./Wobot_logo.png",
+//     nameImg: "./Wobot_name.png",
+//   },
+//   {
+//     id: 2,
+//     name: "3rdLife",
+//     img: "./3rdLogo.png",
+//     nameImg: "",
+//   },
 
-  // {
-  //   id: 4,
-  //   name: "stream",
-  //   img: "/s.svg",
-  //   nameImg: "/streamName.svg",
-  // },
-  // {
-  //   id: 5,
-  //   name: "docker.",
-  //   img: "/dock.svg",
-  //   nameImg: "/dockerName.svg",
-  // },
-];
+//   // {
+//   //   id: 4,
+//   //   name: "stream",
+//   //   img: "/s.svg",
+//   //   nameImg: "/streamName.svg",
+//   // },
+//   // {
+//   //   id: 5,
+//   //   name: "docker.",
+//   //   img: "/dock.svg",
+//   //   nameImg: "/dockerName.svg",
+//   // },
+// ];
 
 export const workExperience = [
   {
@@ -183,21 +183,21 @@ export const workExperience = [
     title: "Frontend Developer",
     desc: "Worked on six UI projects, developing user-friendly and visually appealing web applications using JavaScript, React, HTML5, CSS3, and Next.js.Collaborated across the full development cycle—from requirements to deployment—using Git for version control and efficient teamwork. (TCS)",
     className: "md:col-span-2",
-    thumbnail: "./exp1.svg",
+    thumbnail: "./tcs.png",
   },
   {
     id: 2,
     title: "Data Labelling Intern",
     desc: "Completed a data labeling internship, where I annotated and categorized large datasets to train computer vision models.Ensured high-quality, accurate labeling to improve AI performance and supported the ML team in maintaining data consistency. (WOBOT ai)",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "./exp2.svg",
+    thumbnail: "./Wobot_logo.png",
   },
   {
     id: 3,
     title: "Data Analyst Intern",
     desc: "Interned as a Data Analyst, handling data cleaning, analysis, and reporting to support key business insights.Used Excel, SQL, and Python to create visualizations and uncover trends. (3rdLife)",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "./exp3.svg",
+    thumbnail: "./3rdLogo.png",
   },
   // {
   //   id: 4,

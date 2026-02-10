@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Priyanshi's Portfolio",
+  icons: "./logo.png",
+  title: "Priyanshi | Portfolio",
   description: "Modern and Minimal Portfolio",
 };
 
