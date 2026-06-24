@@ -17,15 +17,15 @@ function Footer() {
 
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
-      <div className="w-full absolute left-0 min-h-96">
+      {/* <div className="w-full absolute left-0 min-h-96">
         <Image
           src="footer-grid.svg"
           alt="Footer Grid"
           // className="w-full h-full opacity-50"
-          width={1920}
-          height={1080}
+          width={0}
+          height={0}
         />
-      </div>
+      </div> */}
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
