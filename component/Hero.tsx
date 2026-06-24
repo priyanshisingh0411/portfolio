@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { cn } from "@/lib/utils";
 import { Spotlight } from "./ui/Spotlight";
@@ -7,7 +9,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 function Hero() {
   return (
-    <div className="pb-20 pt-15">
+    <div className="pb-20">
       <div>
         <Spotlight
           className="-top-40 -left-18 md:-left-32 md:-top-20 h-screen"
@@ -29,7 +31,7 @@ function Hero() {
         />
       </div> */}
 
-      <div className="absolute top-0 left-0 flex h-screen w-full items-center justify-center bg-white dark:bg-black-100 dark:bg-grid-white/[0.05] bg-grid-black/[0.05]">
+      <div className="absolute top-0 left-0 pointer-events-none flex h-screen w-full items-center justify-center bg-white dark:bg-black-100 dark:bg-grid-white/[0.05] bg-grid-black/[0.05]">
         <div
           className={cn(
             "absolute inset-0",
